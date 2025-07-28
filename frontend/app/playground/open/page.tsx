@@ -376,8 +376,9 @@ const OpenBettingPage = () => {
 
                 <div className="mt-6">
                   <h3 className="text-md font-semibold text-orange-400 mb-2 font-mono">
-                    ACTIVE_BETS >> {selectedStudent.name}
-                  </h3>
+  ACTIVE_BETS &gt;&gt; {selectedStudent.name}
+</h3>
+
                   <div className="space-y-2 max-h-40 overflow-y-auto pr-2">
                     {placedBets
                       .filter(b => b.studentId === selectedStudent.id)
