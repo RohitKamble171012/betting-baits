@@ -312,8 +312,9 @@ const OpenBettingPage = () => {
               <div className="max-w-2xl mx-auto">
                 <div className="flex justify-between items-center mb-4 sm:mb-6">
                   <h2 className="text-lg sm:text-xl font-bold text-orange-400 font-mono truncate pr-2">
-                    BET_PROTOCOL >> {selectedStudent.name}
-                  </h2>
+  BET_PROTOCOL >> {selectedStudent.name}
+</h2>
+
                   <button
                     onClick={() => {
                       setSelectedStudent(null);
