@@ -30,10 +30,9 @@ const connectDB = async () => {
     }
     
     await mongoose.connect(process.env.MONGODB_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      dbName: 'bettingbaits'
-    });
+  dbName: 'bettingbaits'
+});
+
     
     console.log('MongoDB connected successfully');
   } catch (err) {
